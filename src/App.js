@@ -43,7 +43,7 @@ class App extends React.Component {
     );      
   }
   componentDidMount(){
-    setInterval(()=>{(this.state.show) ? this.setState({time:this.state.time+1}):this.setState({timer:0})},1000)
+    setInterval(()=>{(this.state.show) ? this.setState({time:this.state.time+1}):this.setState({time:0})},1000)
   };
 }
 export default App;
